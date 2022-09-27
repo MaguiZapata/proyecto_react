@@ -1,0 +1,31 @@
+.barra-nav{
+    margin-right: 10%;
+    /* margin-left: 5%; */
+    margin-top: 0;
+    font-family:"Cormorant";
+    font-size: 110%;
+    font-weight: bold;
+    color: #555B6E
+    ;
+}
+.barra{
+    gap: 5%;
+    
+    
+}
+.logo{
+    padding-left: 10%;
+   
+}
+.logo1{
+    width: 50%;
+}
+.cart_logo{
+    width: 30%;
+    padding-bottom: 7%;
+}
+.about{
+    text-align: center;
+}
+
+
