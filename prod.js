@@ -35,7 +35,7 @@ const prod = [
     },
     {
         id:5,
-        nombre:"Collar Canutillos con Flor",
+        nombre:"Pulsera eslabones acrílicoCollar Canutillos con Flor",
         precio:1800,
         descripcion:"Collar corto de canutillos con flor de metal",
         categoria:"bijou",
@@ -45,11 +45,11 @@ const prod = [
     {
         id:6,
         nombre:"Collar Canutillos con Flor",
-        precio:1800,
-        descripcion:"Collar corto de canutillos con flor de metal",
+        precio:1200,
+        descripcion:"Pulsera flexible de eslabones de acrílico color",
         categoria:"bijou",
         stock:100,
-        img_src:"https://ar.isadoraonline.com/media/catalog/product/4/8/48057601_0_1_20220905211039.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+        img_src:"https://ar.isadoraonline.com/media/catalog/product/4/8/48058201_0_1_20220905211039.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
     },
     {
         id:7,

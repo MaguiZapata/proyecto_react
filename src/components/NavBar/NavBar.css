@@ -1,21 +1,24 @@
 .barra-nav{
     margin-right: 10%;
-    /* margin-left: 5%; */
     margin-top: 0;
     font-family:"Cormorant";
     font-size: 110%;
     font-weight: bold;
-    color: #555B6E
-    ;
+    color: #555B6E;
+    text-decoration: none;
+}
+a .txtBarra{
+    text-decoration: none;
 }
 .barra{
     gap: 5%;
+    text-decoration: none
     
     
 }
 .logo{
     padding-left: 10%;
-   
+
 }
 .logo1{
     width: 50%;
@@ -27,5 +30,6 @@
 .about{
     text-align: center;
 }
+
 
 

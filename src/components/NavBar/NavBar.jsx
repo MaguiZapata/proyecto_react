@@ -22,7 +22,7 @@ return (
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ajuste_barra">
-            <Nav.Link ><NavLink to = "/"> HOME</NavLink></Nav.Link>
+            <Nav.Link className='txtBarra'><NavLink to = "/"> HOME</NavLink></Nav.Link>
             <NavDropdown title="CATEGORIAS" id="basic-nav-dropdown">
               <NavDropdown.Item ><NavLink to= "/categorias/carteras"> CARTERAS</NavLink></NavDropdown.Item>
               <NavDropdown.Item > <NavLink to= "/categorias/bijou">

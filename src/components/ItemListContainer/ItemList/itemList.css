@@ -1,0 +1,8 @@
+.todasLasTarjetas{
+    display: flex;
+    flex-direction: column;
+    columns: 4;
+    column-width: 30%;
+    margin-left: 5%;
+    
+}

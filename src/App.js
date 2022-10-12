@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Contacto from './components/Contacto/Contacto';
 import About from './components/About/About';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 
 function App() {
@@ -18,10 +19,10 @@ function App() {
           <Route exact path="/about" element={<About/>}/>
           <Route exact path ="/contacto" element={<Contacto/>}/>
           <Route exact path ="/" element={<ItemListContainer subtitulo="BIENVENIDO A MI TIENDA"/>}/>
-          {/* <Route exact path ="/categorias/carteras" element={<ItemListContainer subtitulo="Carteras"/>}/>
-          <Route exact path ="/categorias/bijou" element={<ItemListContainer subtitulo="Bijou"/>}/>
-          <Route exact path ="/categorias/accesorios" element={<ItemListContainer subtitulo="Accesorios"/>}/> */}
-          <Route exact path ="/categorias/:categoria" element={<ItemListContainer subtitulo="Productos"/>}/>
+          <Route exact path ="/categorias/:categoria" element={<ItemListContainer subtitulo="PRODUCTOS"/>}/>
+          <Route exact path ="/items/:id" element={<ItemDetailContainer />}/>
+          
+    
         </Routes>
       
       </div>

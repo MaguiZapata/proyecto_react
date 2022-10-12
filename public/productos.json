@@ -46,30 +46,30 @@
    },
    {
       "id":6,
-      "nombre":"Collar Canutillos con Flor",
-      "precio":1800,
-      "descripcion":"Collar corto de canutillos con flor de metal",
+      "nombre":"Pulsera eslabones acrílico",
+      "precio":1200,
+      "descripcion":"Pulsera flexible de eslabones de acrílico color",
       "categoria":"bijou",
       "stock":100,
-      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/8/48057601_0_1_20220905211039.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/8/48058201_0_1_20220905211039.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
    },
    {
       "id":7,
-      "nombre":"Collar Canutillos con Flor",
-      "precio":1800,
-      "descripcion":"Collar corto de canutillos con flor de metal",
+      "nombre":"Set de anillos acrílico",
+      "precio":1100,
+      "descripcion":"Set de 3 anillos: de acrílico y metal",
       "categoria":"bijou",
       "stock":100,
-      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/8/48057601_0_1_20220905211039.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/8/48046201C_0_1_20220905211039.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
    },
    {
       "id":8,
-      "nombre":"Collar Canutillos con Flor",
-      "precio":1800,
-      "descripcion":"Collar corto de canutillos con flor de metal",
+      "nombre":"Aros pasantes flor",
+      "precio":900,
+      "descripcion":"Aros pasantes de flor de metal orgánico",
       "categoria":"bijou",
       "stock":100,
-      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/8/48057601_0_1_20220905211039.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/8/48058403_0_1_20220905211039.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
    },
    {
       "id":9,
@@ -82,29 +82,29 @@
    },
    {
       "id":10,
-      "nombre":"Skunzie soles",
-      "precio":750,
-      "descripcion":"Skunzie bordada con soles",
+      "nombre":"Peineta hojas",
+      "precio":900,
+      "descripcion":"PEINETA DE HOJAS",
       "categoria":"accesorios",
       "stock":100,
-      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/4/44337201_0_1_20210723082052.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/4/44331201_0_1_20220721150255.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
    },
    {
       "id":11,
-      "nombre":"Skunzie soles",
-      "precio":750,
-      "descripcion":"Skunzie bordada con soles",
+      "nombre":"Sleep set break time",
+      "precio":2500,
+      "descripcion":"Set de antifaz, vincha, skunzie y cartón para la puerta",
       "categoria":"accesorios",
       "stock":100,
-      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/4/44337201_0_1_20210723082052.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/4/44401901_0_1_20220531122632.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
    },
    {
       "id":12,
-      "nombre":"Skunzie soles",
-      "precio":750,
-      "descripcion":"Skunzie bordada con soles",
+      "nombre":"Vincha con nudo",
+      "precio":1000,
+      "descripcion":"Vincha textil elástica con nudo",
       "categoria":"accesorios",
       "stock":100,
-      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/4/44337201_0_1_20210723082052.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+      "img_src":"https://ar.isadoraonline.com/media/catalog/product/4/4/44421901_0_1_20220908181514.jpg?quality=75&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
    }
 ]

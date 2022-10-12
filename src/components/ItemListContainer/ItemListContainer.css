@@ -6,3 +6,9 @@ h2{
     background-color: antiquewhite;
 
 }
+.todasLasTarjetas{
+    display: flex;
+    gap: 3px;
+    grid-template-areas: 30% 30% 30%;
+    margin-left: 3%;
+}
