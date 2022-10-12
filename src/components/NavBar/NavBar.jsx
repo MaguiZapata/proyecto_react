@@ -4,12 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import CartWidget from './CartWidget/CartWidget';
+import { NavLink } from 'react-router-dom';
+import CartWidget from '../CartWidget/CartWidget';
 
 import "./NavBar.css"
 
 function NavBar() {
 
+  
 return (
     <Navbar className= "barra-nav" bg="light" expand="lg">
       <Container>
@@ -20,17 +22,17 @@ return (
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ajuste_barra">
-            <Nav.Link href="#home">HOME</Nav.Link>
+            <Nav.Link ><NavLink to = "/"> HOME</NavLink></Nav.Link>
             <NavDropdown title="CATEGORIAS" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">CARTERAS</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                BIJOU
+              <NavDropdown.Item ><NavLink to= "/categorias/carteras"> CARTERAS</NavLink></NavDropdown.Item>
+              <NavDropdown.Item > <NavLink to= "/categorias/bijou">
+                BIJOU</NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">ACCESORIOS</NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to ="/categorias/accesorios"> ACCESORIOS</NavLink></NavDropdown.Item>
               
             </NavDropdown>
-            <Nav.Link href="#home"className='about' >ABOUT US</Nav.Link>
-            <Nav.Link href="#home">CONTACTO</Nav.Link>
+            <Nav.Link className='about' ><NavLink to = "/about"> ABOUT US </NavLink> </Nav.Link>
+            <Nav.Link ><NavLink to = "/contacto"> CONTACTO</NavLink></Nav.Link>
             
           </Nav>
         </Navbar.Collapse>
