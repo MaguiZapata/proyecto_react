@@ -1,35 +1,48 @@
-.barra-nav{
-    margin-right: 10%;
-    margin-top: 0;
-    font-family:"Cormorant";
+.contenedor {
+    font-family: "Cormorant";
     font-size: 110%;
     font-weight: bold;
     color: #555B6E;
-    text-decoration: none;
+    margin: 0% 3%
 }
-a .txtBarra{
-    text-decoration: none;
-}
-.barra{
-    gap: 5%;
-    text-decoration: none
-    
-    
-}
-.logo{
-    padding-left: 10%;
 
+
+.contenedor .logo  {
+    width: 25%;
 }
-.logo1{
+.contenedor .logo img{
     width: 50%;
 }
-.cart_logo{
-    width: 30%;
-    padding-bottom: 7%;
+
+.contenedor .barra-nav{    
+    align-items: center ;
+
 }
-.about{
-    text-align: center;
+.barra-nav a{
+    text-decoration: none;
+    color: #555B6E;
+    list-style: none;
+    margin: 0px 10px;
+    padding: 0px 5px;
+    width: 135px;
+    ;
+}
+.barra-nav a:hover{
+    color: #555B6E;
+    text-decoration: underline 2px #555B6E;;
 }
 
+
+.barra-nav ul{
+    width: 222px;
+    padding: 0;
+}
+.barra-nav li{
+    list-style: none;
+    margin: 10px 4px;
+    text-align: center;
+    
+
+}
 
 

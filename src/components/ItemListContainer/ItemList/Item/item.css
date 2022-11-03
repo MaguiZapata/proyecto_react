@@ -1,20 +1,8 @@
 .tarjeta{
-    border-radius: 3px;
-    display: flex;
-    font-family:"Cormorant";
-    
-    
-}
-.txtbtnDetalle{
-    color: beige;
-    text-decoration: none;
-    font-family:"Cormorant";
-    ;
-}
-button.btn{
-    background-color: #89B0AE;
-    color: #89B0AE;
-    border-color: #89B0AE;
+    border-radius: 3px !important;
+    align-items: center;
+    justify-content: center;
+    width: 20rem
 }
 
 .cardTxt{
@@ -23,7 +11,4 @@ button.btn{
 .txtPrecio{
     font-size: 200%;
     font-weight: bold;
-}
-.divTarjetas{
-    display: flex;
 }

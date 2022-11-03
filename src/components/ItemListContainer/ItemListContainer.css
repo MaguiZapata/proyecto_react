@@ -1,14 +1,9 @@
-h2{
-    font-family:"Cormorant";
-    font-size: 300px;
-    text-align: center;
-    color: #89B0AE;
-    background-color: antiquewhite;
-
-}
-.todasLasTarjetas{
+.itemListContainer{
     display: flex;
-    gap: 3px;
-    grid-template-areas: 30% 30% 30%;
-    margin-left: 3%;
+    flex-direction: column;
+    justify-content: center;
+    
+    
 }
+
+

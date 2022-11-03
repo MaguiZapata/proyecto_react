@@ -1,20 +1,6 @@
-.tarjeta{
-    border-radius: 3px;
-    display: flex;
-    font-family:"Cormorant";
-    margin-left: 30%;
-    
-}
 .txtbtnDetalle{
     color: beige;
-    text-decoration: none;
-    font-family:"Cormorant";
-    ;
-}
-button.btn{
-    background-color: #89B0AE;
-    color: #89B0AE;
-    border-color: #89B0AE;
+    text-decoration: none   ;
 }
 
 .cardTxt{

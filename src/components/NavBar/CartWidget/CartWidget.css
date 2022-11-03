@@ -1,0 +1,15 @@
+.barra-nav div{
+ position: relative;
+
+}
+.barra-nav div img{
+  width: 32%;
+  padding-bottom: 3%;
+}
+.barra-nav div span{
+  position: absolute;
+  top: 32%;
+  left: 18%;
+  font-size: 20px;
+  color: #555B6E;
+} 

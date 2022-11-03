@@ -1,8 +1,6 @@
 .todasLasTarjetas{
-    display: flex;
-    flex-direction: column;
-    columns: 4;
-    column-width: 30%;
-    margin-left: 5%;
-    
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0% 3%;  
 }

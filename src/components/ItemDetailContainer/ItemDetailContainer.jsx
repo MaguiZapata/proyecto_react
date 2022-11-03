@@ -1,29 +1,37 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ItemDetail from './ItemDetail/ItemDetail'
+import Spinner from '../Spinner/Spinner'
+import {getFirestore,doc,getDoc} from 'firebase/firestore'
 
 function ItemDetailContainer() {
     const [product,setProduct] = useState({}) 
-    const {id}= useParams ()
+    const [loading,setLoading] = useState(true)
+    const {id}= useParams()
 
     useEffect(() => {
-        fetch(`./../productos.json`)
-        .then(res=>res.json())
-        .then(res=>{ 
-            id ? setProduct(res.find(p=>p.id === parseInt(id))) : setProduct({})
-            
-        }) //setProduct
-        .catch(error=>console.error(error))
-
-        
-    }, [id])
+      const queryDatabase = getFirestore ()
+      const queryDoc = doc(queryDatabase, 'productos', id)
+      getDoc(queryDoc)
+      .then(res => setProduct({id:res.id, ...res.data()}))
+      .catch((error)=>{
+        console.log(error)
+      })
+      .finally(()=> {
+        setLoading(false)
+      })
+  }, [id])
     
-    console.log(product);
-
   return (
     <>
-      <h2>ItemDetailContainer</h2>
-      <ItemDetail product={product} />
+      <h2>DETALLES DEL PRODUCTO</h2>
+
+      {loading && <Spinner/> }
+      { !loading &&
+      <ItemDetail product={product}/>
+      
+      }
+    
     </>
     
 

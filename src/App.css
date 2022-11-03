@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Cormorant";
+}
+h2:not([id="swal2-title"]){
+  
+  font-size: 30px;
+  text-align: center;
+  color: #89B0AE;
+  background-color: antiquewhite;
+}
+
+button.btn{
+  background-color: #89B0AE;
+  color: beige;
+  border-color: #89B0AE;
+}
+
+button a{
+  color: beige;
+  text-decoration: none;
+}
+button a:hover{
+  color: #555B6E;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  
+}
+form input ,form label ,form textarea{
+  width: 40%;
+  margin: 1% 0%;
+  color: #555B6E;
+  border: none;
+  border-bottom: 1px solid #555B6E;
+  
+}
